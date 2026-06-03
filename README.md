@@ -4,6 +4,10 @@ This BallsDex extension adds a new option to /balls collection, allowing you to 
 > [!NOTE]
 > The original /balls collection command will not be available until you disable the package.
 
+> [!IMPORTANT]
+> It starts with the updated UI so before you freak tf out go to admin panel -> recol settings and toggle on 'Default UI'
+
+
 Installation:
 ```toml
 [[ballsdex.packages]]

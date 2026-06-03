@@ -1,0 +1,13 @@
+[project]
+name = "ReCollection"
+version = "1.0.0"
+
+dependencies = []
+
+description = "This BallsDex extension adds a new option to /balls collection, allowing you to pick a user. Along with that, it also comes with new UI for the command which can be toggled in the admin panel!"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+
+authors = [ { name = "gruyere", email = "gruyere@remicrodex.com"} ]
+
+readme = "README.md"

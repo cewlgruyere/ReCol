@@ -236,7 +236,7 @@ class recol(commands.Cog):
         except BallInstance.DoesNotExist:
             if countryball:
                 await interaction.followup.send(
-                    f"You don't have any {countryball.country} {settings.plural_collectible_name} yet."
+                    f"{user} doesn't have any {countryball.country} {settings.plural_collectible_name} yet."
                 )
             else:
                 await interaction.followup.send(f"You don't have any {settings.plural_collectible_name} yet.")
